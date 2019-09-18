@@ -4,13 +4,11 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>title</title>
+<title>This is jsp view from siccController result</title>
 </head>
 <body>
-
 <h2>JSP VIEW</h2>
-<%= request.getAttribute("message") %>
-
+<%=request.getAttribute("message")%>
 </body>
 </html>
 
